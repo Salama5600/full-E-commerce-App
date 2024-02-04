@@ -1,0 +1,16 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer{
+    width: 85%;
+    height: 100%;
+}
+
+.Categories-list{
+    margin: 0;
+    padding: 0;
+}

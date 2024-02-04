@@ -1,0 +1,76 @@
+.sign-up {
+    margin: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up .imgBox img {
+    width: 85%;
+}
+
+.sign-up .sign-up-form {
+    width: 371px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up .sign-up-form h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 1.44px;
+    width: 100%;
+}
+
+.sign-up .sign-up-form p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.sign-up .sign-up-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up .sign-up-form form input {
+    margin: 15px;
+    color: #000;
+    opacity: 0.4;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 370px;
+    outline: transparent;
+}
+
+.sign-up .sign-up-form form .create-account-btn {
+    padding: 16px 122px;
+    border-radius: 4px;
+    background: #DB4444;
+    border: 1px solid #DB4444;
+    color: #fff;
+    transition: 0.5s;
+    margin: 15px 0;
+}
+
+.sign-up .sign-up-form form .create-account-btn:hover {
+    background-color: #c52e2e;
+}
+
+.sign-up .sign-up-form p a {
+    color: #000;
+}
